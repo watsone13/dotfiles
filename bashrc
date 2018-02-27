@@ -161,16 +161,6 @@ source ~/.bashrc.paths
 alias lsusb="system_profiler SPUSBDataType"
 alias gitsquash="git commit -m "temp" && git reset --soft HEAD~2 && git commit"
 
-# BEGIN: Block added by chef, to set environment strings
-# Please see https://fburl.com/AndroidProvisioning if you do not use bash
-# or if you would rather this bit of code 'live' somewhere else
-. ~/.fbchef/environment
-# END: Block added by chef
-export FBANDROID_DIR=/Users/erinwatson/fbsource/fbandroid
-alias quicklog_update=/Users/erinwatson/fbsource/fbandroid/scripts/quicklog/quicklog_update.sh
-alias qlu=quicklog_update
-
-# added by setup_fb4a.sh
 export ANDROID_SDK=/opt/android_sdk
 export ANDROID_NDK_REPOSITORY=/opt/android_ndk
 export ANDROID_HOME=${ANDROID_SDK}
