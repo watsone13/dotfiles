@@ -1,3 +1,5 @@
+set background=dark
+
 " Much of this is from square/maximum-awesome
 " don't bother with vi compatibility
 set nocompatible
